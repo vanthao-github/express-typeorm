@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: mysql
+    enviroment:
+      DB_USER: root
+      DB_PASSWORD:
+    ports:
+      - '5432:5432'
